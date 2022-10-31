@@ -1,0 +1,19 @@
+{
+  "name": "bbn/appui-places",
+  "description": "Places interface for APPUI",
+  "keywords": ["place", "address","appui"],
+  "homepage": "https://github.com/nabab/ide-places",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Nabet",
+      "email": "thomas.nabet@gmail.com",
+      "homepage": "https://bbn.solutions",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "bbn/bbn": "dev-master"
+  }
+}
