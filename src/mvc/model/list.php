@@ -6,7 +6,7 @@
 
 use bbn\X;
 use bbn\Str;
-/** @var $model \bbn\Mvc\Model*/
+/** @var bbn\Mvc\Model $model */
 
 $idCountries = $model->inc->options->fromCode('countries', 'core', 'appui');
 
