@@ -10,7 +10,7 @@
     <bbns-column label="ID"
       					 field="id"
                  :editable="false"
-                 :hidden="true"
+                 :invisible="true"
     ></bbns-column>
     <bbns-column label="Full address"
       					 field="fulladdress"
@@ -19,17 +19,17 @@
     ></bbns-column>
   	<bbns-column label="Address"
       					 field="address"
-                 :hidden="true"
+                 :invisible="true"
                  :required="true"
     ></bbns-column>
     <bbns-column label="Postal code"
       					 field="pc"
-                 :hidden="true"
+                 :invisible="true"
                  :required="true"
     ></bbns-column>
     <bbns-column label="City"
       					 field="city"
-                 :hidden="true"
+                 :invisible="true"
                  :required="true"
                  :width="120"
     ></bbns-column>
