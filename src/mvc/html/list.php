@@ -7,49 +7,49 @@
              :toolbar="['insert']"
              :url="root+'actions/place'"
              >
-    <bbns-column title="ID"
+    <bbns-column label="ID"
       					 field="id"
                  :editable="false"
                  :hidden="true"
     ></bbns-column>
-    <bbns-column title="Full address"
+    <bbns-column label="Full address"
       					 field="fulladdress"
                  :editable="false"
                  :min-width="250"
     ></bbns-column>
-  	<bbns-column title="Address"
+  	<bbns-column label="Address"
       					 field="address"
                  :hidden="true"
                  :required="true"
     ></bbns-column>
-    <bbns-column title="Postal code"
+    <bbns-column label="Postal code"
       					 field="pc"
                  :hidden="true"
                  :required="true"
     ></bbns-column>
-    <bbns-column title="City"
+    <bbns-column label="City"
       					 field="city"
                  :hidden="true"
                  :required="true"
                  :width="120"
     ></bbns-column>
-    <bbns-column title="<?= _('Country') ?>"
+    <bbns-column label="<?= _('Country') ?>"
       					 field="id_country"
                  :source="source.countries"
                  :required="true"
                  :width="120"
     ></bbns-column>
-    <bbns-column title="Phone"
+    <bbns-column label="Phone"
       					 field="tel"
                  type="phone"
                  :width="120"
     ></bbns-column>
-    <bbns-column title="Mail"
+    <bbns-column label="Mail"
       					 field="email"
                  type="email"
                  :width="150"
     ></bbns-column>
-    <bbns-column title="Actions"
+    <bbns-column label="Actions"
       					 :buttons="['edit', 'delete']"
                  :width="180"
     ></bbns-column>
